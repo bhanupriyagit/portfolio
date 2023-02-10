@@ -1,10 +1,7 @@
 <?php include 'config.php';
-
 $sql = "SELECT * FROM users";
 $result = mysqli_query($conn ,$sql);
-
 $data = mysqli_fetch_assoc($result);
-
 ?>
 
 
